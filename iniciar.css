@@ -1,0 +1,67 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background-image: url(./img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: rgba(244, 244, 244, 0.5);
+    padding: 70px;
+    display: flex;  
+    gap: 40px;
+}
+#section-imagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+#logo-mario{
+Width: 400px;
+Height: 183px;
+}
+#logo-programar{
+    Width: 400px;
+    Height: 85px;
+}
+#logo-kenzie{
+    Width: 165px;
+    Height: 41px;
+    padding-top: 25px;
+}
+#jogar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+#jogar p{
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+    width: 380px;
+}
+#jogar button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+#jogar button{
+    border-radius: 10px;
+    border: 3px solid #F4F4F4;
+    background: var(--m-blue, #049CD8);
+    width: 350px;
+    height: 104px;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+}
