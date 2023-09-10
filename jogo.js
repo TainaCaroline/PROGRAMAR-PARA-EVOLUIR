@@ -9,8 +9,9 @@ let encontrados      = 0;
 let placar           = 0;
 let round            = 1;
 
-buttonJogar.addEventListener('click', () =>{
-  window.location.assign('./jogar.html')
+
+buttonEncerrar.addEventListener('click', () =>{
+  window.location.assign('./Inicio.html')
 })
 
 cardInicial();
@@ -29,6 +30,7 @@ function cardInicial(){
         carta.src = './img/QuestionBlock.png';
 
         main.appendChild(carta);
+        
         
     }
     
