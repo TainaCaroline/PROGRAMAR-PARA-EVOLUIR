@@ -52,16 +52,20 @@ Height: 183px;
     transform: scale(1.1);
     transition: all 0.5s;
 }
+
 #jogar button{
     border-radius: 10px;
     border: 3px solid #F4F4F4;
     background: var(--m-blue, #049CD8);
     width: 350px;
     height: 104px;
-    color: #FFF;
     text-align: center;
     font-family: Nunito;
     font-size: 50px;
     font-style: normal;
     font-weight: 900;
+}
+#jogar button a{
+    text-decoration: none;
+    color: #FFF;
 }
